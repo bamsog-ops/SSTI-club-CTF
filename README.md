@@ -1,1 +1,14 @@
-Server-Side Template Injection (SSTI) CTF Challenge  A deliberately vulnerable web application designed as a hands-on Capture The Flag (CTF) challenge for practicing Server-Side Template Injection (SSTI) exploitation techniques. Built using the Flask framework, the application intentionally leverages the insecure render_template_string() functionality, creating an exploitable attack surface for template injection attacks.  The challenge is structured to simulate a realistic vulnerable environment where participants can explore SSTI discovery, payload crafting, sandbox escape techniques, and Python pyjail bypasses to achieve code execution. It serves as a practical lab for learning how template engines can be abused when user-controlled input is improperly rendered.  This project is intended for:  Practicing SSTI exploitation in a controlled environment Learning Python template injection internals Experimenting with pyjail payload construction Understanding secure template rendering practices and mitigation strategies  Designed for cybersecurity learners, CTF players.
+Server-Side Template Injection (SSTI) CTF Challenge
+
+A deliberately vulnerable web application designed as a hands-on Capture The Flag (CTF) challenge for practicing Server-Side Template Injection (SSTI) exploitation techniques. Built using the Flask framework, the application intentionally leverages the insecure render_template_string() functionality, creating an exploitable attack surface for template injection attacks.
+
+The challenge is structured to simulate a realistic vulnerable environment where participants can explore SSTI discovery, payload crafting, sandbox escape techniques, and Python pyjail bypasses to achieve code execution. It serves as a practical lab for learning how template engines can be abused when user-controlled input is improperly rendered.
+
+This project is intended for:
+
+Practicing SSTI exploitation in a controlled environment
+Learning Python template injection internals
+Experimenting with pyjail payload construction
+Understanding secure template rendering practices and mitigation strategies
+
+Designed for cybersecurity learners, CTF players
